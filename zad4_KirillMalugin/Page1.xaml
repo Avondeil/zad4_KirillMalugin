@@ -1,0 +1,47 @@
+﻿<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="zad4_KirillMalugin.Page1"
+             Title="Кредитный калькулятор">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Сумма кредита:" VerticalOptions="Center" />
+                <Entry x:Name="sum" Placeholder="Введите сумму кредита" HorizontalOptions="FillAndExpand"  />
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Срок:" VerticalOptions="Center" />
+                <Entry x:Name="srok" Placeholder="Введите срок" HorizontalOptions="FillAndExpand"  />
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Вид платежа:" VerticalOptions="Center" />
+                <Picker x:Name="picker" SelectedIndexChanged="picker_SelectedIndexChanged" HorizontalOptions="FillAndExpand" Title="Выберите вид платежа">
+                    <Picker.Items>
+                        <x:String>Ипотека</x:String>
+                        <x:String>Автокредит</x:String>
+                        <x:String>Потребительский</x:String>
+                    </Picker.Items>
+                </Picker>
+            </StackLayout>
+
+            <StackLayout>
+                <Label Text="Процентная ставка:" VerticalOptions="Center" />
+                <Slider x:Name="Slider" Minimum="0" Maximum="100" ValueChanged="percentSlider_ValueChanged" />
+            </StackLayout>
+
+            <StackLayout>
+
+                <Label x:Name="myLabelOne" Text="Ежемесячный платеж: ..." VerticalOptions="Center" />
+            </StackLayout>
+            <StackLayout>
+                <Label x:Name="myLabelTwo" Text="Общая сумма: ..." VerticalOptions="Center" />
+            </StackLayout>
+
+            <StackLayout>
+                <Label x:Name="myLabelThree" Text="Переплата: ..." VerticalOptions="Center" />
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+    
+</ContentPage>
+    
