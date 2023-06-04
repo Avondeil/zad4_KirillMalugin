@@ -17,9 +17,8 @@ namespace zad4_KirillMalugin
         public Page1()
         {
             InitializeComponent();
-            Label myLabelOne = (Label)FindByName("myLabelOne");
-            Label myLabelTwo = (Label)FindByName("myLabelTwo");
-            Label myLabelThree = (Label)FindByName("myLabelThree");
+            
+
         }
 
 
@@ -29,10 +28,29 @@ namespace zad4_KirillMalugin
 
         private void percentSlider_ValueChanged(object sender, ValueChangedEventArgs e)
         {
-            double newValue = e.NewValue;
-            if (newValue > 50)
+            try
             {
+                double newValue = e.NewValue / 100;
+                if (Convert.ToDouble(sum.Text) > 0 && Convert.ToInt32(srok.Text) > 0)
+                {
+                    myLabelOne.Text = $"Ежемесячный платеж: {Convert.ToString((Convert.ToDouble(sum.Text) + Convert.ToDouble(sum.Text) * newValue) / Convert.ToDouble(srok.Text))} Р";
+                    myLabelTwo.Text = $"Общая сумма: {Convert.ToString((Convert.ToDouble(sum.Text) + Convert.ToDouble(sum.Text) * newValue))} Р";
+                    myLabelThree.Text = $"Переплата:{Convert.ToDouble(sum.Text) * newValue} Р";
+                }
+                else
+                {
+                    myLabelOne.Text = $"Ежемесячный платеж: Error";
+                    myLabelTwo.Text = $"Общая сумма: Error";
+                    myLabelThree.Text = $"Переплата: Error";
+                }
             }
+            catch
+            {
+                myLabelOne.Text = $"Ежемесячный платеж: Error";
+                myLabelTwo.Text = $"Общая сумма: Error";
+                myLabelThree.Text = $"Переплата: Error";
+            }
+            
         }
     }
 }

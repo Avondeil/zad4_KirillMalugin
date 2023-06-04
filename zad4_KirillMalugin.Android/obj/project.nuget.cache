@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Os92rwqqYX6t5oXBGje+uTlOhstm82WW3Z9A0PyAsfbx3jllGOaQJF1zo5UKDamOmi4mf57+ugAoN4vtYQSUtg==",
+  "dgSpecHash": "3gzqqKVr4Qggv8DcWGDj4b26oRDIFjukQUhCX937yl6m+to/lOFFchN/FIzxv5uihbZDVgNKxcDalHEh5HQdig==",
   "success": true,
-  "projectFilePath": "C:\\Malugin\\zad4_KirillMalugin\\zad4_KirillMalugin.Android\\zad4_KirillMalugin.Android.csproj",
+  "projectFilePath": "C:\\Malugin\\zad4_KirillMalugin\\zad4_KirillMalugin\\zad4_KirillMalugin.Android\\zad4_KirillMalugin.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\307-05\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\307-05\\.nuget\\packages\\xamarin.androidx.activity\\1.2.4.1\\xamarin.androidx.activity.1.2.4.1.nupkg.sha512",

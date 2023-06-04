@@ -3414,11 +3414,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Malugin\\zad4_KirillMalugin\\zad4_KirillMalugin.Android\\zad4_KirillMalugin.Android.csproj",
+      "projectUniqueName": "C:\\Malugin\\zad4_KirillMalugin\\zad4_KirillMalugin\\zad4_KirillMalugin.Android\\zad4_KirillMalugin.Android.csproj",
       "projectName": "zad4_KirillMalugin.Android",
-      "projectPath": "C:\\Malugin\\zad4_KirillMalugin\\zad4_KirillMalugin.Android\\zad4_KirillMalugin.Android.csproj",
+      "projectPath": "C:\\Malugin\\zad4_KirillMalugin\\zad4_KirillMalugin\\zad4_KirillMalugin.Android\\zad4_KirillMalugin.Android.csproj",
       "packagesPath": "C:\\Users\\307-05\\.nuget\\packages\\",
-      "outputPath": "C:\\Malugin\\zad4_KirillMalugin\\zad4_KirillMalugin.Android\\obj\\",
+      "outputPath": "C:\\Malugin\\zad4_KirillMalugin\\zad4_KirillMalugin\\zad4_KirillMalugin.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -3439,8 +3439,8 @@
       "frameworks": {
         "monoandroid12.0": {
           "projectReferences": {
-            "C:\\Malugin\\zad4_KirillMalugin\\zad4_KirillMalugin\\zad4_KirillMalugin.csproj": {
-              "projectPath": "C:\\Malugin\\zad4_KirillMalugin\\zad4_KirillMalugin\\zad4_KirillMalugin.csproj"
+            "C:\\Malugin\\zad4_KirillMalugin\\zad4_KirillMalugin\\zad4_KirillMalugin\\zad4_KirillMalugin.csproj": {
+              "projectPath": "C:\\Malugin\\zad4_KirillMalugin\\zad4_KirillMalugin\\zad4_KirillMalugin\\zad4_KirillMalugin.csproj"
             }
           }
         }

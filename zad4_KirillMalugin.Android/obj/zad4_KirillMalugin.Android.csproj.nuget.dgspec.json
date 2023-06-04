@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Malugin\\zad4_KirillMalugin\\zad4_KirillMalugin.Android\\zad4_KirillMalugin.Android.csproj": {}
+    "C:\\Malugin\\zad4_KirillMalugin\\zad4_KirillMalugin\\zad4_KirillMalugin.Android\\zad4_KirillMalugin.Android.csproj": {}
   },
   "projects": {
-    "C:\\Malugin\\zad4_KirillMalugin\\zad4_KirillMalugin.Android\\zad4_KirillMalugin.Android.csproj": {
+    "C:\\Malugin\\zad4_KirillMalugin\\zad4_KirillMalugin\\zad4_KirillMalugin.Android\\zad4_KirillMalugin.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Malugin\\zad4_KirillMalugin\\zad4_KirillMalugin.Android\\zad4_KirillMalugin.Android.csproj",
+        "projectUniqueName": "C:\\Malugin\\zad4_KirillMalugin\\zad4_KirillMalugin\\zad4_KirillMalugin.Android\\zad4_KirillMalugin.Android.csproj",
         "projectName": "zad4_KirillMalugin.Android",
-        "projectPath": "C:\\Malugin\\zad4_KirillMalugin\\zad4_KirillMalugin.Android\\zad4_KirillMalugin.Android.csproj",
+        "projectPath": "C:\\Malugin\\zad4_KirillMalugin\\zad4_KirillMalugin\\zad4_KirillMalugin.Android\\zad4_KirillMalugin.Android.csproj",
         "packagesPath": "C:\\Users\\307-05\\.nuget\\packages\\",
-        "outputPath": "C:\\Malugin\\zad4_KirillMalugin\\zad4_KirillMalugin.Android\\obj\\",
+        "outputPath": "C:\\Malugin\\zad4_KirillMalugin\\zad4_KirillMalugin\\zad4_KirillMalugin.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -32,8 +32,8 @@
         "frameworks": {
           "monoandroid12.0": {
             "projectReferences": {
-              "C:\\Malugin\\zad4_KirillMalugin\\zad4_KirillMalugin\\zad4_KirillMalugin.csproj": {
-                "projectPath": "C:\\Malugin\\zad4_KirillMalugin\\zad4_KirillMalugin\\zad4_KirillMalugin.csproj"
+              "C:\\Malugin\\zad4_KirillMalugin\\zad4_KirillMalugin\\zad4_KirillMalugin\\zad4_KirillMalugin.csproj": {
+                "projectPath": "C:\\Malugin\\zad4_KirillMalugin\\zad4_KirillMalugin\\zad4_KirillMalugin\\zad4_KirillMalugin.csproj"
               }
             }
           }
@@ -54,14 +54,14 @@
         }
       }
     },
-    "C:\\Malugin\\zad4_KirillMalugin\\zad4_KirillMalugin\\zad4_KirillMalugin.csproj": {
+    "C:\\Malugin\\zad4_KirillMalugin\\zad4_KirillMalugin\\zad4_KirillMalugin\\zad4_KirillMalugin.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Malugin\\zad4_KirillMalugin\\zad4_KirillMalugin\\zad4_KirillMalugin.csproj",
+        "projectUniqueName": "C:\\Malugin\\zad4_KirillMalugin\\zad4_KirillMalugin\\zad4_KirillMalugin\\zad4_KirillMalugin.csproj",
         "projectName": "zad4_KirillMalugin",
-        "projectPath": "C:\\Malugin\\zad4_KirillMalugin\\zad4_KirillMalugin\\zad4_KirillMalugin.csproj",
+        "projectPath": "C:\\Malugin\\zad4_KirillMalugin\\zad4_KirillMalugin\\zad4_KirillMalugin\\zad4_KirillMalugin.csproj",
         "packagesPath": "C:\\Users\\307-05\\.nuget\\packages\\",
-        "outputPath": "C:\\Malugin\\zad4_KirillMalugin\\zad4_KirillMalugin\\obj\\",
+        "outputPath": "C:\\Malugin\\zad4_KirillMalugin\\zad4_KirillMalugin\\zad4_KirillMalugin\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

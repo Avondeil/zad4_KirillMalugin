@@ -5,16 +5,16 @@
     <ContentPage.Content>
         <StackLayout>
             <StackLayout Orientation="Horizontal">
-                <Label Text="Сумма кредита:" VerticalOptions="Center" />
+                <Label Text="Сумма кредита:" VerticalOptions="Center" FontSize="20" />
                 <Entry x:Name="sum" Placeholder="Введите сумму кредита" HorizontalOptions="FillAndExpand"  />
             </StackLayout>
 
             <StackLayout Orientation="Horizontal">
-                <Label Text="Срок:" VerticalOptions="Center" />
+                <Label Text="Срок:" VerticalOptions="Center"  FontSize="20"/>
                 <Entry x:Name="srok" Placeholder="Введите срок" HorizontalOptions="FillAndExpand"  />
             </StackLayout>
             <StackLayout Orientation="Horizontal">
-                <Label Text="Вид платежа:" VerticalOptions="Center" />
+                <Label Text="Вид платежа:" VerticalOptions="Center"  FontSize="20"/>
                 <Picker x:Name="picker" SelectedIndexChanged="picker_SelectedIndexChanged" HorizontalOptions="FillAndExpand" Title="Выберите вид платежа">
                     <Picker.Items>
                         <x:String>Ипотека</x:String>
@@ -25,20 +25,20 @@
             </StackLayout>
 
             <StackLayout>
-                <Label Text="Процентная ставка:" VerticalOptions="Center" />
+                <Label Text="Процентная ставка:" VerticalOptions="Center" FontSize="20" />
                 <Slider x:Name="Slider" Minimum="0" Maximum="100" ValueChanged="percentSlider_ValueChanged" />
             </StackLayout>
 
             <StackLayout>
 
-                <Label x:Name="myLabelOne" Text="Ежемесячный платеж: ..." VerticalOptions="Center" />
+                <Label x:Name="myLabelOne" Text="Ежемесячный платеж: ..." VerticalOptions="Center"  FontSize="20"/>
             </StackLayout>
             <StackLayout>
-                <Label x:Name="myLabelTwo" Text="Общая сумма: ..." VerticalOptions="Center" />
+                <Label x:Name="myLabelTwo" Text="Общая сумма: ..." VerticalOptions="Center" FontSize="20"/>
             </StackLayout>
 
             <StackLayout>
-                <Label x:Name="myLabelThree" Text="Переплата: ..." VerticalOptions="Center" />
+                <Label x:Name="myLabelThree" Text="Переплата: ..." VerticalOptions="Center" FontSize="20"/>
             </StackLayout>
         </StackLayout>
     </ContentPage.Content>

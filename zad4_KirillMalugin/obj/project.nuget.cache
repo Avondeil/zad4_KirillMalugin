@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GEIOUOzf368N4OJYgLD8on0sOM1298ZjaQJqJO208IN4hO3x2Qej8nJ+xpZ6B0HcfJ5hGDSu1eTBoZIStrIYqA==",
+  "dgSpecHash": "SMbzv6EQIMQ2kK6KfXV6ccDTM7w6IOfnKkZdGoLr4lU9Txu8f9e6xFUvdFcLVCcWA6FFuQOJCyloKMsDDhOxxQ==",
   "success": true,
-  "projectFilePath": "C:\\Malugin\\zad4_KirillMalugin\\zad4_KirillMalugin\\zad4_KirillMalugin.csproj",
+  "projectFilePath": "C:\\Malugin\\zad4_KirillMalugin\\zad4_KirillMalugin\\zad4_KirillMalugin\\zad4_KirillMalugin.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\307-05\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\307-05\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
